@@ -114,7 +114,7 @@ GameplayScreen::GameplayScreen()
 	sphere.inputMap.rightBtnMap = GLFW_KEY_RIGHT;
 	sphere.simpleWorldSpaceMovement.moveSpeed = 1.0f;
 
-	TransformComponent triangleTransform;
+	/*TransformComponent triangleTransform;
 	triangleTransform.position.y = -1.4f;
 	triangleTransform.position.x = -5.0f;
 	triangleTransform.position.z = -2.0f;
@@ -125,7 +125,7 @@ GameplayScreen::GameplayScreen()
 	pyramid.inputMap.forwardBtnMap = GLFW_KEY_UP;
 	pyramid.inputMap.leftBtnMap = GLFW_KEY_LEFT;
 	pyramid.inputMap.rightBtnMap = GLFW_KEY_RIGHT;
-	pyramid.simpleWorldSpaceMovement.moveSpeed = 1.0f;
+	pyramid.simpleWorldSpaceMovement.moveSpeed = 1.0f;*/
 
 	TransformComponent capsuleTransform;
 	capsuleTransform.position.y = -1.8f;
